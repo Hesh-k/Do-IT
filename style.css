@@ -1,38 +1,57 @@
-.background{
-position: fixed;
-top: 0;
-left: 0;
-width: 100vw;
-height: 100vh;
-flex-shrink: 0;
-background: linear-gradient(134deg, #B85AF1 2.60%, rgba(24, 217, 238, 0.67) 100%);
 
-animation: flow 4s linear infinite;
-background-size: 200% auto;
+  @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&display=swap');
+
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  background: linear-gradient(
+    134deg,
+    #b85af1 2.6%,
+    rgba(24, 217, 238, 0.67) 100%
+  );
+
+  animation: flow 4s linear infinite;
+  background-size: 200% auto;
 }
 
 @keyframes flow {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
-.card{
-    
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-width: 260px;
-height: 368px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #FFFAF3;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fffaf3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card h2{
+
+color: rgba(0, 0, 0, 0.71);
+font-family: 'Exo', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+
 }
