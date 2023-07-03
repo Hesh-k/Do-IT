@@ -65,7 +65,6 @@
   margin-bottom: 20px;
   width: 100px;
   height: 30px;
-  /* border-radius: 10px; */
   border: none;
   outline: none;
   background: transparent;
@@ -83,6 +82,14 @@
 .card button:hover {
   cursor: pointer;
   scale: 1.10;
-  
+
+}
+
+#taskList {
+
+  font-family: "Exo", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+
 
 }
