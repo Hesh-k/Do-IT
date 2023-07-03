@@ -1,6 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&display=swap");
 
 .background {
   position: fixed;
@@ -45,27 +43,46 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.card h2{
+.card h2 {
+  color: rgba(0, 0, 0, 0.71);
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
 
-color: rgba(0, 0, 0, 0.71);
-font-family: 'Exo', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-align: center;
+.entry {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+#taskInput {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 30px;
+  /* border-radius: 10px; */
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.card button {
+  background-image: url("assets/add.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  border: none;
+  background: transparent;
 
 }
 
-.inputItem{
+.card button:hover {
+  cursor: pointer;
+  scale: 1.10;
+  
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    }
-
-
-
-
+}
