@@ -11,7 +11,7 @@ function addTask() {
 
   var deleteButton = document.createElement("button");
   deleteButton.classList.add("delete-button");
-  deleteButton.textContent = "Delete";
+  deleteButton.textContent = "";
   deleteButton.addEventListener("click", function() {
     newTask.remove();
   });
