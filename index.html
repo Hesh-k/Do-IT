@@ -10,18 +10,16 @@
     <div class="background">
       <div class="card">
         <h2>--- DO-IT ---</h2>
+
+        <div id="taskList"></div>
         <div class="inputItem">
           <div class="entry">
             <input type="text" id="taskInput" placeholder="Enter a task" />
 
-            <button onclick="addTask()">
+            <button class="cardButton" onclick="addTask()">
               <img src="assets/add.png" alt="Icon" />
             </button>
           </div>
-          
-          <ul id="taskList"></ul>
-         
-
           <script src="script.js"></script>
         </div>
       </div>
